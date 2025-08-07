@@ -1,0 +1,36 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./Navbar"
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Aboutus from './components/Aboutus';
+import Signin from './components/Signin';
+import Subscription from './components/Subscription';
+import Signup from './components/Signup';
+import "./App.css"
+ 
+
+function App() {
+  return (
+    <>
+      <div className="mycontainer">
+        <Navbar />
+        <div className="bigcontainer">
+          <Routes>
+            <Route path='/home' element=<Home /> />
+            <Route path='/aboutus' element=<Aboutus /> />
+            <Route path='/signin' element=<Signin /> />
+            <Route path="/signup" element={<Signup />} />
+            <Route path='/subscription' element=<Subscription /> />
+
+          </Routes>
+        </div>
+
+      </div>
+
+
+    </>
+  )
+}
+export default App;
+
+

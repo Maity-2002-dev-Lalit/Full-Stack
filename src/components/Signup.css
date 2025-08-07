@@ -1,0 +1,62 @@
+.signup {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+   background: url('https://static.vecteezy.com/system/resources/previews/006/240/302/non_2x/abstract-soft-focus-sunset-field-landscape-of-yellow-flowers-and-grass-meadow-warm-golden-hour-sunset-sunrise-time-tranquil-spring-summer-nature-closeup-and-blurred-forest-background-idyllic-nature-photo.jpg') no-repeat center center fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.signup form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup h3 {
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.signup .form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.signup .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.signup .btn-success {
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #28a745;
+  border: none;
+}
+
+.signup .btn-success:hover {
+  background-color: #218838;
+}
+
+.signup p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup a {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 600;
+}
